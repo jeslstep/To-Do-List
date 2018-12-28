@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do List</title>
+</head>
+<body class="container">
+    <header><h1>To Do App</h1></header>
+    <section>
+        <h2>Add a Task Here:</h2>
+        <div align="center">
+        <label for="Task"></label>
+        <input id="taskToBeAdded" type="text">
+        <button id=addTaskBtn>Add Task</button>
+        </div>
+    </section>
+        
+    <section class="container">
+        <h2>Tasks to Complete or Delete:</h2>
+            <ul id=appendTasks>
+                <!-- jquery here -->
+            </ul>
+    </section>
+    
+</body>
+</html>
